@@ -1,0 +1,489 @@
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    background: #FCF5EB !important;
+    /* max-width: 100%;
+    min-width: 100%; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#top{
+    background: url('../images/ex (2).png')  no-repeat;
+    height: 500px;
+    background-color:#FCF5EB;
+    background-size: cover;
+}
+.social{
+    position:fixed;
+    right:5px;
+    z-index: 100;
+}
+.logo-p{
+     border-radius:100px;
+     height:80px;
+     width:80px; 
+     border:3px solid #DCA05A; 
+    padding:22px 22px;
+}
+.h2-logo{
+    text-transform: uppercase;
+    font-size: 40px;
+    color:#2F271E;
+}
+.p-logo{
+    text-transform: uppercase;
+    color:#DCA05A;
+    font-size: 20px;
+}
+.btn-pray{
+    border-radius:50px !important;
+    height: 30px;
+    width:120px;
+    padding:0 !important;
+    text-align: center;
+    background: linear-gradient(#DCA05A, rgb(240, 186, 124) )!important;
+    border:0px !important;
+}
+.btn-pray:hover{
+    background: linear-gradient(#90d7e4, #cde5e9) #90d7e4 !important;
+    color:#2c4f55 !important;
+}
+
+li{
+     list-style: none; 
+     justify-content: right;
+     position: sticky;
+}
+
+.fa-twi{
+    border-radius:100px;
+    height: 30px;
+    width:30px;
+    box-shadow:1px 1px 0px 0px #afafaf;
+    text-align: center;
+    padding:8px 8px;
+    background:#fff;
+    color:#DCA05A;
+    margin-top:5px;
+    /* margin-left:20px; */
+}
+.fa-twi:hover{
+    background:#DCA05A;
+    color:#fff;
+}
+.fa-face{
+    border-radius:100px;
+    height: 30px;
+    width:30px;
+    box-shadow:1px 1px 0px 0px #afafaf;
+    text-align: center;
+    padding:8px 8px;
+    background:#fff;
+    color:#DCA05A;
+    margin-right:20px;
+}
+.fa-face:hover{
+    background:#DCA05A;
+    color:#fff;
+}
+.fa-plane{
+    border-radius:100px;
+    height: 30px;
+    width:30px;
+    box-shadow:1px 1px 0px 0px #afafaf;
+    text-align: center;
+    padding:6px 6px;
+    background:#fff;
+    color:#DCA05A;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.fa-plane:hover{
+    background:#DCA05A;
+    color:#fff;
+}
+.fa-slack{
+    border-radius:100px;
+    height: 30px;
+    width:30px;
+    box-shadow:1px 1px 0px 0px #afafaf;
+    text-align: center;
+    padding:8px 8px;
+    background:#fff;
+    color:#DCA05A;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:20px;
+}
+.fa-slack:hover{
+    background:#DCA05A;
+    color:#fff;
+}
+
+/* forgive */
+ #forgive{
+text-align: center;
+background:  linear-gradient(rgba(134, 174, 235, 0.5), rgba(177, 208, 255, 0.5)),  url('../images/forgive.jpg') no-repeat fixed;
+height: 399px !important;
+/* background-color:#90d7e4; */
+padding-top:50px;
+}
+#forgive{
+    padding-top:10px;
+    /* height: 90%; */
+    width:100%;
+    content:''; 
+    transform: skew(0deg, -3deg);
+} 
+#forgive{
+    height: 600px;
+    background-size: cover;
+}
+.forgive-border{
+    border:5px solid #DCA05A;
+    transform: skew(180deg, 3deg);
+    padding-top:10px;
+    padding-bottom:10px;
+    position: relative;
+    top:-55px;
+}
+.forgive-icon{
+    border-radius:200px;
+    height:100px;
+    width:100px;  
+   padding:30px 30px;
+   background: #FCF5EB;
+   margin-top:60px;
+}
+.h4-forgive{
+    color:#2F271E;
+    position: relative;
+    top:40px;
+    transform: skew(180deg, 3deg);
+}
+.give-icon{
+    border-radius:200px;
+    height:100px;
+    width:100px; 
+   padding:30px 14px;
+   background: #FCF5EB;
+   margin-top:100px;
+}
+.text-p{
+    color:#DCA05A;
+    font-size:18px;
+    font-weight: 700;
+}
+.text-2{
+    font-size:13px;
+}
+/* pray */
+.h4-pray{
+    color: #D4954D;
+}
+.text-pray{
+    color:#413629;
+    font-size:12px;
+}
+.logo-pray{
+     /* border-radius:100px;
+    height:90px;
+    width:90px; 
+    border:1px solid #afafaf;  */
+    /* background: #DCA05A; */
+   
+}
+.img-pray{
+    border:1px solid #fff;
+    /* background: #DCA05A; */
+    border-radius:100px;
+    height:80px;
+    width:80px; 
+    padding:22px 22px;
+}
+.text-pray-dec{
+    color:#D4954D;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.pray{
+    color:#9A948E;
+    font-size: 10px;
+    text-transform:none;
+}
+.p{
+    font-weight: 700;
+    color:#9A948E;
+    font-size: 12px;
+}
+.last-pray-text{
+    text-transform: capitalize;
+    color:#9A948E;
+    font-size: 12px;
+}
+.trans{
+    transition: transform .2s;
+    width: 100px;
+    height: 140px;
+    padding-top:20px;
+}
+.trans:hover{
+    transform: scale(1.2);
+    background: #fcfcfc;
+    box-shadow: 1px 1px 1px 1px #afafaf;
+}
+
+/* near */
+
+#near{
+    background: url('../images/Simon.png') no-repeat;
+    height: 600px;
+    background-size: cover;
+}
+.h4-near{
+    padding-top: 200px;
+    color:#DCA05A;
+}
+.p-near{
+    color: #413629;
+    font-size: 14px;
+}
+
+/* count */
+.p-count{
+    color: #344249;
+    font-size: 13px;
+}
+.second-count{
+    border:1px solid #D9E1E4;
+    width:70%;
+}
+.second-p{
+    padding-top:30px;
+   
+}
+.first-count{
+    border:2px;
+    background: #A8CCDE;
+    height: 270px;;
+    font-size: 10px;
+    width:98%;
+    margin:10px 4px;
+    padding-bottom:30px;
+    box-shadow: 2px 2px 2px rgb(209, 216, 219);
+}
+.second-p{
+    font-size: 13px;
+    font-weight: bold; 
+}
+.btn-count{
+    background: #E1F5FF !important;
+    border-radius:50px !important;
+    height: 30px;
+    width:120px;
+    padding:0 !important;
+    text-align: center;
+    border:0px !important;
+    color:#413629 !important;
+}
+.first-border{
+    border-right:1px dashed #C4E1EF;
+}
+.btn-count:hover{
+    background: linear-gradient(#DCA05A, #D4954D, #D4954D) !important;
+    color:#2c4f55 !important;
+}
+
+#post{
+    background: url('../images/hi.png') no-repeat;
+    background-size: contain;
+    height: 750px;
+    margin-top:130px;
+}
+.text-post-last{
+    font-size: 12px;
+    color:#ffffff;
+}
+.text-post{
+    color:#fff;
+    font-size: 12px;
+}
+
+.donate{
+    background:#fff;
+    padding:10px 10px;
+}
+.img-donate{
+    margin-left:-30px;
+}
+.text-donate{
+    font-size: 10px;
+    padding-top:10px;
+}
+.imgbarcode{
+    transition: transform  .8s;
+    width: 100px;
+    height: 140px;
+    padding-top:20px;
+}
+.img-barcode:hover{
+   transform: scale(1.5);
+    background: #fcfcfc;
+    transition: ease-in-out .9s;
+   box-shadow: 1px 1px 1px 1px #afafaf;
+    -webkit-filter: grayscale(1.5);
+    filter: grayscale(1.5);
+   
+}
+.text-donate-policy{
+    color: #DCA05A;
+    font-size: 10px;
+    padding-top:9px;
+    border-bottom:2px doted #90d7e4;
+}
+.footer-h4{
+    font-size: 10px;
+    text-align: center;
+    /* padding-top:40px; */
+   
+}
+.footer-head{
+    font-size: 16px;
+    padding-top:30px;
+    color:#D4954D;
+    text-transform: uppercase;
+    font-family: 'Muller;
+} 
+.footer-border{
+    border-left:1px solid #D4954D;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1024px){
+    #forgive{
+        background:  linear-gradient(rgba(134, 174, 235, 0.85), rgba(177, 208, 255, 0.84)),  url('../images/forgive.jpg') no-repeat fixed;
+        height: auto !important;
+        padding-top:30px;
+        padding-bottom:50px;
+    } 
+    .forgive-border{
+        border:0px solid #DCA05A;
+        transform: skew(180deg, 3deg);
+        padding-top:10px;
+        padding-bottom:10px;
+        position: relative;
+        top:-55px;
+    }
+    .h4-near{
+        font-size: 16px;
+    }
+    .p-near{
+        font-size: 15px;
+    }
+    .first-count{
+        border:2px;
+        background: #A8CCDE;
+        height: auto;
+        font-size: 10px;
+        width:auto;
+        margin:10px 4px;
+        padding-bottom:30px;
+        box-shadow: 2px 2px 2px rgb(209, 216, 219);
+    }
+    .navbar-brand{
+        align-items: center;
+        align-content: center;
+        margin-left:-100px;
+    }
+    .h2-logo{
+        font-size: 16px;
+    }
+    .p-logo{
+        font-size: 10px;
+    }
+    .logo-text{
+        text-align: center;
+        font-size: 14px;
+    }
+    .h4-post{
+    font-size: 16px;
+    margin-top:80px !important;
+
+    }
+    .twitter {
+        font-family: Muller;
+       line-height: 27px;
+      font-size: 18px;
+
+       color: #413629;
+    }
+    #post{
+        background: url('../images/hi.png') no-repeat;
+        background-size: cover;
+        height: 820px;
+        margin-top:100px;
+        padding-top:40px;
+        /* padding-bottom: 90px !important; */
+    }
+    .card {
+        height:auto;
+    }
+    .twitter {
+        font-family: Muller;
+       line-height: 27px;
+      font-size: 10px;
+
+       color: #413629;
+    }
+    .img-donate{
+        margin-left:-5px;
+        width:50px;
+        padding-top: 20px;
+    }
+    .img-barcode{
+        width:50px;
+    }
+    .text-donate{
+        font-size: 10px;
+        text-align: center;
+    }
+}
+#footer {
+    background: url('../images/footer.png')  no-repeat;
+    height:190px;
+    
+    background-size:cover;
+    background-position-y: center center;
+    object-position: center;
+}
+
+
+
+
+ 
+ 
