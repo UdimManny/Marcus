@@ -277,6 +277,12 @@ padding-top:50px;
     font-size: 13px;
     font-weight: bold; 
 }
+
+#count{
+    background: url('../images/Group\ 22.png') no-repeat;
+    height: 400px;
+    background-size: cover;
+}
 .btn-count{
     background: #E1F5FF !important;
     border-radius:50px !important;
@@ -296,10 +302,13 @@ padding-top:50px;
 }
 
 #post{
-    background: url('../images/hi.png') no-repeat;
-    background-size: contain;
+    background: url('../images/Group 23.png') no-repeat;
+    background-size: cover;
     height: 750px;
-    margin-top:130px;
+    /* margin-top:10px; */
+}
+.h4-post{
+    padding-top:150px;
 }
 .text-post-last{
     font-size: 12px;
@@ -309,7 +318,9 @@ padding-top:50px;
     color:#fff;
     font-size: 12px;
 }
-
+#donate{
+    margin-top:-10px;
+}
 .donate{
     background:#fff;
     padding:10px 10px;
@@ -320,6 +331,10 @@ padding-top:50px;
 .text-donate{
     font-size: 10px;
     padding-top:10px;
+    
+}
+.h4-donate{
+    color: #D4954D;
 }
 .imgbarcode{
     transition: transform  .8s;
@@ -442,12 +457,13 @@ padding-top:50px;
 
        color: #413629;
     }
+    
     #post{
         background: url('../images/hi.png') no-repeat;
         background-size: cover;
-        height: 820px;
-        margin-top:100px;
-        padding-top:40px;
+        height: 800px;
+        /* margin-top:-90px;
+        padding-top:40px; */
         /* padding-bottom: 90px !important; */
     }
     .card {
@@ -471,6 +487,9 @@ padding-top:50px;
     .text-donate{
         font-size: 10px;
         text-align: center;
+    }
+    #count{
+        height: auto;
     }
 }
 #footer {
